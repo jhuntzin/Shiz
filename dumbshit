@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>For Loops Practice</title>
+    <style>
+        p {font-size: 15pt;}
+    </style>
+</head>
+
+<body>
+    <script>
+        
+        document.write("<p>");
+        for (var i = 0; i < 1; i++) {
+            for (var j= 0; j< 1; j++) {
+                 document.write("##########<br />" +
+                                "##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##<br />" + 
+                                "#&nbsp&nbsp#&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#&nbsp&nbsp#<br />" + 
+                                "#&nbsp&nbsp&nbsp&nbsp#&nbsp&nbsp&nbsp&nbsp#&nbsp&nbsp&nbsp&nbsp#<br />" +
+                                "#&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#<br />" +
+                                "#&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#<br />" +
+                                "#&nbsp&nbsp&nbsp&nbsp#&nbsp&nbsp&nbsp&nbsp#&nbsp&nbsp&nbsp&nbsp#<br />" +
+                                "#&nbsp&nbsp#&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#&nbsp&nbsp#<br />" +
+                                "##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##<br />" +
+                                "##########<br />");
+            }
+        }
+        document.write("</p>");
+        
+    </script>
+</body>
+</html>
